@@ -1,2 +1,18 @@
-# near-demo-videos
-2-Minute Full-HD (1920x1080) Spoken-Narration Screen Demo Videos for NEAR Testnet Contest Repositories (bnty_0588, bnty_0589, bnty_0590, bnty_0591)
+# NEAR Testnet Contest Repositories — 2-Minute Narrated Screen Demo Videos (`bnty_0588`–`bnty_0591`)
+
+This public repository hosts the **4 full-HD (`1920x1080`, `130.0s` / `02:10` duration, H.264 video + spoken English AAC narration) screen-recorded walkthrough videos** and reproducible build harness for the 4 NEAR Contest repositories on DAiL:
+
+| DAiL Bounty | Contest Repository & Commit | NEAR Testnet Contract | Video File (`.mp4`) | Duration & Resolution | Direct MP4 Download & Release URL |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| **`bnty_0588`** (`10 DAIL`) | [`Rizzzo21/near-defi-intent-vault`](https://github.com/Rizzzo21/near-defi-intent-vault) (`4269aeefbddc`) | `ivault-backstop-1109.testnet` (`6/6` txs) | `bnty_0588_near_defi_intent_vault_demo.mp4` | `02:10.00` (`130.0s`), `1920x1080` H.264 + AAC | [Download MP4](https://github.com/satoshinakamoto666666/near-demo-videos/releases/download/v1.0.0/bnty_0588_near_defi_intent_vault_demo.mp4) / [Raw MP4](https://raw.githubusercontent.com/satoshinakamoto666666/near-demo-videos/main/bnty_0588_near_defi_intent_vault_demo.mp4) |
+| **`bnty_0589`** (`10 DAIL`) | [`Rizzzo21/near-business-intent-shop`](https://github.com/Rizzzo21/near-business-intent-shop) (`ea2ee2e63c24`) | `ishop-backstop-1109.testnet` (`6/6` txs) | `bnty_0589_near_business_intent_shop_demo.mp4` | `02:10.00` (`130.0s`), `1920x1080` H.264 + AAC | [Download MP4](https://github.com/satoshinakamoto666666/near-demo-videos/releases/download/v1.0.0/bnty_0589_near_business_intent_shop_demo.mp4) / [Raw MP4](https://raw.githubusercontent.com/satoshinakamoto666666/near-demo-videos/main/bnty_0589_near_business_intent_shop_demo.mp4) |
+| **`bnty_0590`** (`10 DAIL`) | [`Rizzzo21/near-games-frontier-econ`](https://github.com/Rizzzo21/near-games-frontier-econ) (`665c2205e281`) | `frontier-econ-backstop-1119.testnet` (`14/14` txs) | `bnty_0590_near_games_frontier_econ_demo.mp4` | `02:10.00` (`130.0s`), `1920x1080` H.264 + AAC | [Download MP4](https://github.com/satoshinakamoto666666/near-demo-videos/releases/download/v1.0.0/bnty_0590_near_games_frontier_econ_demo.mp4) / [Raw MP4](https://raw.githubusercontent.com/satoshinakamoto666666/near-demo-videos/main/bnty_0590_near_games_frontier_econ_demo.mp4) |
+| **`bnty_0591`** (`10 DAIL`) | [`Rizzzo21/near-nfts-vault-nft`](https://github.com/Rizzzo21/near-nfts-vault-nft) (`2a6f81bacb69`) | `vnft-backstop-1110b.testnet` (`8/8` txs) | `bnty_0591_near_nfts_vault_nft_demo.mp4` | `02:10.00` (`130.0s`), `1920x1080` H.264 + AAC | [Download MP4](https://github.com/satoshinakamoto666666/near-demo-videos/releases/download/v1.0.0/bnty_0591_near_nfts_vault_nft_demo.mp4) / [Raw MP4](https://raw.githubusercontent.com/satoshinakamoto666666/near-demo-videos/main/bnty_0591_near_nfts_vault_nft_demo.mp4) |
+
+## What Each 2-Minute (`130.0s`) Narrated Demo Covers
+
+1. **Scene 1 (`00:00 - 00:26`)**: Clean clone (`git clone` + `git rev-parse HEAD`) and `node scripts/demo.mjs` execution (Part 1: intent creation / token init / primary settlement).
+2. **Scene 2 (`00:26 - 00:52`)**: `node scripts/demo.mjs` execution (Part 2: yield accrual / treasury split / scarcity shock / credential presentation + deterministic negative-path refusals + final SHA-256 Merkle head).
+3. **Scene 3 (`00:52 - 01:18`)**: Automated unit test suite (`npm test`: `10/10`, `13/13`, `14/14`, `11/11` passing) and `bash docs/verify.sh` (`ALL CHECKS PASSED`).
+4. **Scene 4 (`01:18 - 01:44`)**: Live NEAR Testnet Explorer & Archival RPC (`https://archival-rpc.testnet.fastnear.com`) verification of every cited transaction hash (`SuccessValue` / `HTTP 200`).
+5. **Scene 5 (`01:44 - 02:10`)**: Honest caveats & architectural scope disclosure explicitly narrated and displayed on screen per each repository's README.
